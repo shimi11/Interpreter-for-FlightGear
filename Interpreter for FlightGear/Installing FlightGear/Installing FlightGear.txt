@@ -1,0 +1,14 @@
+1: Download FlightGear from https://www.flightgear.org/download/
+
+2: Install it on the computer....
+
+3: Open FlightGear, click on Settings and put the following lines in additional settings (see image "add settings")
+
+--telnet=socket,in,10,127.0.0.1,5402,tcp
+--generic=socket,out,10,127.0.0.1,5400,tcp,generic_small
+
+4: Copy "generic_small.xml" to "The path of FlightGear \data\Protocol"
+
+5: everything is ready. Now run the code and then (while the code is running) run FlightGear (click "Fly!")
+
+Good luck!
